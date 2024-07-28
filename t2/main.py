@@ -93,7 +93,7 @@ def main():
         historico['f(xn, yn)'].append(fxy(xn, yn))
 
         # se o módulo da diferença de f(xn, yn) e f(xn+1, yn+1) for menor do que 0.01, achou um ponto de mínimo local
-        if np.abs(fxy(xn1, yn1) - fxy(xn, yn)) < 0.0001:
+        if np.abs(fxy(xn1, yn1) - fxy(xn, yn)) < 0.000001:
             break
 
         # atualiza os dados para a próxima iteração
