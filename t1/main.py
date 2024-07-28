@@ -113,6 +113,5 @@ def plota_grafo(fxy, gxy, historico):
     plt.show()
 
 
-
 if __name__ == '__main__':
     main()
